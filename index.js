@@ -21,7 +21,7 @@ const compareTwoDays = days => {
   return {
     from,
     to,
-    isIncresing: to > from,
+    isIncreasing: to > from,
     difference: (to - from).toFixed(2),
     differenceInPercentage: ((to - from) / from * 100).toFixed(2)
   }
